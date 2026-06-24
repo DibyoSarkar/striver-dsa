@@ -81,5 +81,29 @@ int main(){
             }
         }
     */
+
+    
+    // Nested If Else //
+    /*
+        int age;
+        cin >> age;
+        if(age<0 || age>150){
+            cout << "Are you even a human?";
+        }
+        else{
+            if(age<18){
+                cout << "not eligible for job";
+            }
+            else if(age<=57){
+                cout << "eligible for job";
+                if(age>=55){
+                    cout << ", but retirement soon";
+                }
+            }
+            else{
+                cout << "retirement time";
+            }
+        }
+    */
     
 }
