@@ -153,5 +153,16 @@ int main(){
         arr[3] += 10;
         cout << arr[3];
     */
+
+    
+    // 2D Array //
+    /*
+        int arr[3][5];
+
+        arr[2][4] = 89;
+        cout << arr[2][4] << endl;
+
+        cout << arr[1][4];
+    */
     
 }
