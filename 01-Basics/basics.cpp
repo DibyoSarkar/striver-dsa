@@ -164,5 +164,15 @@ int main(){
 
         cout << arr[1][4];
     */
+
+
+    // String //
+    /*
+        string s = "Striver";
+        int len = s.size();
+        cout << s[len-1] << endl;
+        s[len-1] = 'z';
+        cout << s[len-1];
+    */
     
 }
