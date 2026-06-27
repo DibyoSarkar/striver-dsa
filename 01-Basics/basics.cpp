@@ -194,5 +194,34 @@ int main(){
         } 
         cout << y;
     */
+
+
+    // While Loop //
+    /*
+        int r=5;
+        while(r>=1){
+            cout << "StriverR " << r << endl;
+            r--;
+        } 
+        cout << r;
+    */
+
+
+    // Do While Loop //
+    /*int r=2;
+        while(r>=5){
+            cout << "StriverR " << r << endl;
+            r--;
+        } 
+        cout << r << endl;
+        // this loop above, will not work.
+        // to run the loop at least once even if it doesn't match the conditions, we have to use do-while loop
+        int q=2;
+        do {
+            cout << "StriverR " << r << endl;
+            q--;
+        } while(q>=5);
+        cout << q << endl;
+    */
     
 }
