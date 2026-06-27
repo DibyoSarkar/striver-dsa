@@ -174,5 +174,25 @@ int main(){
         s[len-1] = 'z';
         cout << s[len-1];
     */
+
+
+    // For Loop //
+    /*
+        for(int i=0; i<5; i++){
+            cout << "Striver" << endl;
+        }
+        // cout << i;
+        // will not print, because the scope is limited wherever i declared that variable
+        int z;
+        for(z=0; z<=4; z=z+1){
+            cout << "StriverZ" << endl;
+        } 
+        cout << z << endl;
+        int y;
+        for(y=5; y>=1; y--){
+            cout << "StriverY " << y << endl;
+        } 
+        cout << y;
+    */
     
 }
