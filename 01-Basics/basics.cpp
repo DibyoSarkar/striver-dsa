@@ -8,7 +8,7 @@ int main(){
     /* 
     int x;
     cin >> x;
-    cout << "what's upp " << x; 
+    cout << "Your number is: " << x; 
     */
 
 
