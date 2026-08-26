@@ -1,6 +1,26 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Function //
+// void, return, parameterised, non parameterised //
+// Void 
+/* void printName(string nameCatch){
+    cout << "Hey " << nameCatch << " !";
+} */
+
+// Return
+/* int sumofTwo(int num1, int num2){
+    int sum = num1 + num2;
+    cout << num1 << " + " << num2 << " = ";
+    return sum;
+} */
+
+// Same as Return function, but done with void;
+/* void sumofTwo(int num1, int num2){
+    int sum = num1 + num2;
+    cout << num1 << " + " << num2 << " = " << sum;
+} */
+
 int main(){
 
 
@@ -223,5 +243,19 @@ int main(){
         } while(q>=5);
         cout << q << endl;
     */
-    
+
+
+    // Function //
+    // void - non parameterised //
+    /* printName(); */
+    // void parameterised //
+    /* string nameThrow, nameThrow1;
+    cin >> nameThrow >> nameThrow1;
+    printName(nameThrow);
+    printName(nameThrow1); */
+
+    /* int n1, n2;
+    cin >> n1 >> n2;
+    int res = sumofTwo(n1, n2);
+    cout << res; */
 }
