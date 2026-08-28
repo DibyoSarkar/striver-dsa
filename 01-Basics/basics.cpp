@@ -30,6 +30,24 @@ using namespace std;
         return n2;
 }*/
 
+// pass by value - doesn't change the main value //
+/*void doSomething(int number){
+    cout << number << endl;
+    number += 5;
+    cout << number << endl;
+    number += 5;
+    cout << number << endl;
+}*/
+
+// pass by value - doesn't change the main value //
+/*void doSomething(int &number){
+    cout << number << endl;
+    number += 5;
+    cout << number << endl;
+    number += 5;
+    cout << number << endl;
+}*/
+
 int main(){
 
 
@@ -280,4 +298,14 @@ int main(){
     cin >> num1 >> num2;
     int res = maxx(num1, num2);
     cout << res;*/
+
+    // pass by value - doesn't change the main value //
+    /*int num = 10;
+    doSomething(num);
+    cout << num << endl;*/
+
+    // pass by reference - does change the main value //
+    /*int num = 10;
+    doSomething(num);
+    cout << num << endl;*/
 }
