@@ -21,6 +21,15 @@ using namespace std;
     cout << num1 << " + " << num2 << " = " << sum;
 } */
 
+// Building functions same as in-built (math.h)
+/*int maxx(int n1, int n2){
+    if(n1 >= n2)
+        return n1;
+
+    else 
+        return n2;
+}*/
+
 int main(){
 
 
@@ -258,4 +267,17 @@ int main(){
     cin >> n1 >> n2;
     int res = sumofTwo(n1, n2);
     cout << res; */
+
+    // in-built functions //
+    /* int num1, num2;
+    cin >> num1 >> num2;
+    int minimum = min(num1, num2);
+    int maximum = max(num1, num2);
+    cout << "Maximum = " << maximum << endl << "Minimum = " << minimum;*/
+
+    // personally written function like in-built functions //
+    /*int num1, num2;
+    cin >> num1 >> num2;
+    int res = maxx(num1, num2);
+    cout << res;*/
 }
