@@ -48,6 +48,12 @@ using namespace std;
     cout << number << endl;
 }*/
 
+// pass by reference - array is always passed by reference //
+/*void doSomething(int arr[]){
+    arr[0] += 100;
+    cout << "Value inside function : " << arr[0] << endl;
+}*/
+
 int main(){
 
 
@@ -317,4 +323,14 @@ int main(){
     for(int i=0; i<5; i++){
         cout << arr[i] << " ";
     }*/
+
+    // pass by reference - array is always passed by reference //
+    /*int n = 5;
+    int arr[5];
+    for(int i=0; i<5; i++){
+        cin >> arr[i];
+    }
+    doSomething(arr);
+    cout << "Value inside int main : " << arr[0];*/
+    
 }
