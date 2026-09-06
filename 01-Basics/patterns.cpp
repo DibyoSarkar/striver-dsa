@@ -1,14 +1,35 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-
-    // Pattern 1 //
-    for(int i=0; i<5; i++){
-        for(int j=0; j<5; j++){
+/*
+void pattern1(int n){
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
             cout << "* ";
         }
         cout << endl;
     }
+}
+*/
 
+/*
+void pattern2(int n){
+    for(int i=0; i<n; i++){
+        for(int j=0; j<=i; j++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
+}
+*/
+
+int main(){
+    int t;
+    cin >> t;
+    for(int i=0; i<t; i++){
+        int n;
+        cin >> n;
+        pattern2(n);
+    }
+    
 }
