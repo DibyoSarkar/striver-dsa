@@ -236,6 +236,25 @@ void pattern12alt1(int n){
     }
 }
 
+void pattern13(int n){
+    int value = 1;
+    for(int i=0; i<n; i++){
+        for(int j=0; j<=i; j++){
+            cout << value << " ";
+            value += 1;
+        }
+        cout << endl;
+    }
+}
+
+void pattern14(int n){
+    for(int i=0; i<n; i++){
+        for(char ch = 'A'; ch<='A'+i; ch++){
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+}
 
 int main(){
     int t;
